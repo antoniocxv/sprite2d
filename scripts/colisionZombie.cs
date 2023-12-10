@@ -10,7 +10,7 @@ public class colisionZombie : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("estoy en colision");
-        // Verifica si la colisión es con el objeto deseado
+        // Comprueba si la colisiÃ³n es con el objeto deseado
         if (collision.gameObject.CompareTag("goblin"))
         {
             GoblinMovement goblinComponent = collision.gameObject.GetComponent<GoblinMovement>();
@@ -27,7 +27,7 @@ public class colisionZombie : MonoBehaviour
 
                 int vidaActual = zombie.restarVida(fuerzaDelGoblin);
                 Debug.Log("me choco con vida " + vidaActual.ToString());
-                // Aquí establecemos la variable "estamuerto" en true
+                // AquÃ­ establecemos la variable "estamuerto" en true
            
            
                 if (vidaActual <= 0)
@@ -41,6 +41,6 @@ public class colisionZombie : MonoBehaviour
     public void MetodoAlFinalDeLaAnimacion()
     {
         animator.SetBool("estoyMuerto", false);
-        // Coloca aquí el código que deseas ejecutar al final de la animación.
+        
     }
 }
