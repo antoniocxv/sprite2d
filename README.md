@@ -19,4 +19,4 @@ The strength is necessary to kill the zombie. In this case the zombie has 100 po
 
 <img width="auto" alt="image" src="https://github.com/antoniocxv/sprite2d/assets/6523949/fcaf6a5a-6254-4e52-b61a-5d79dfffdf6d">
 
-One detail I have found is that i need to freeze rotation in Z in the rigidbody, if not, the two objects rotates when collisioning.
+One detail I have found is that I need to freeze rotation in Z in the rigidbody, if not, the two objects rotates when collisioning.
