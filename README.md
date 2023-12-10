@@ -7,7 +7,9 @@ This work has several parts that we are going to detail in the following lines:
 
 ### - Movement and animation of the goblin
 **Script: GoblinMovement**
-Our goblin has different skills:<img width="auto" alt="image" src="https://github.com/antoniocxv/sprite2d/assets/6523949/66080e7d-b607-4105-a0ce-aad841242f45">
+Our goblin has different skills:
+<img width="auto" alt="image" src="https://github.com/antoniocxv/sprite2d/assets/6523949/66080e7d-b607-4105-a0ce-aad841242f45">
+
 With them we can control the strength, jump and velocity. We have a flag to control if the goblin is jumping, that activates when jumping and deactivates when he has a collide with the floor or zombie ("suelo" and "zombie" tags)
 <img width="auto" alt="image" src="https://github.com/antoniocxv/sprite2d/assets/6523949/c892aa19-2ed8-4568-abe3-699b5fa68809">
 
